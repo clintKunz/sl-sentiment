@@ -1,0 +1,31 @@
+{
+  "name": "sl-sentiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clintKunz/sl-sentiment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clintKunz/sl-sentiment/issues"
+  },
+  "homepage": "https://github.com/clintKunz/sl-sentiment#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "qs": "^6.9.4",
+    "tsscmp": "^1.0.6",
+    "watson-developer-cloud": "^4.0.1"
+  }
+}
